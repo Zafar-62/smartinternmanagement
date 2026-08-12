@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intern Progress"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overall Progress: 0%"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/totalText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Tasks: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/pendingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pending Tasks: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/completedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Completed Tasks: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/approvedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Approved Tasks: 0"
+            android:textSize="18sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/rejectedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rejected Tasks: 0"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

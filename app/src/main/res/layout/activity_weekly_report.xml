@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekly Internship Report"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <EditText
+            android:id="@+id/weekInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Week e.g. Week 1"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/completedInput"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:hint="Tasks completed"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/skillsInput"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:hint="Skills learned"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/problemsInput"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:hint="Problems faced"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/nextPlanInput"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:hint="Next week's plan"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT WEEKLY REPORT"/>
+
+    </LinearLayout>
+
+</ScrollView>

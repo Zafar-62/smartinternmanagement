@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ntc_navy">#17324D</color>
+    <color name="ntc_blue">#245B8A</color>
+
+    <!-- ALL APP PAGES BACKGROUND -->
+    <color name="background">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="text_primary">#17212B</color>
+    <color name="text_secondary">#65727E</color>
+
+    <color name="success">#2E7D32</color>
+    <color name="warning">#EF6C00</color>
+    <color name="danger">#C62828</color>
+
+    <color name="border">#D5DDE5</color>
+
+</resources>

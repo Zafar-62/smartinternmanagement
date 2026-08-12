@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.NTCInterns" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:fontFamily">sans-serif</item>
+
+        <item name="android:windowBackground">@color/background</item>
+
+        <item name="android:statusBarColor">@color/ntc_navy</item>
+
+        <item name="android:navigationBarColor">@color/white</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="colorPrimary">@color/ntc_navy</item>
+
+        <item name="colorPrimaryContainer">@color/ntc_blue</item>
+
+        <item name="colorSecondary">@color/ntc_blue</item>
+
+    </style>
+
+</resources>

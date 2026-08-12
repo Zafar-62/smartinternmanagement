@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NTC Supervisor Dashboard"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internship Management System"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Interns"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/totalInternsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="28sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Tasks"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/totalTasksText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="28sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pending Tasks"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pendingTasksText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="22sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Completed Tasks"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/completedTasksText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="22sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Approved Tasks"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/approvedTasksText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="22sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rejected Tasks"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/rejectedTasksText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="22sp"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/manageInternsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MANAGE INTERNS"/>
+
+        <Button
+            android:id="@+id/createTaskButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CREATE TASK"/>
+
+        <Button
+            android:id="@+id/allTasksButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALL TASKS"/>
+
+        <Button
+            android:id="@+id/progressButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INTERN PROGRESS"/>
+
+    </LinearLayout>
+
+</ScrollView>

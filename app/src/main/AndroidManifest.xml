@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NTCInterns">
+
+        <activity
+            android:name=".AttendanceActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".InternAttendanceActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".WeeklyReportActivity"
+            android:exported="false" />
+
+        <!-- Task Detail Screen -->
+        <activity
+            android:name=".TaskDetailActivity"
+            android:exported="false" />
+
+        <!-- Intern Tasks Screen -->
+        <activity
+            android:name=".InternTasksActivity"
+            android:exported="false" />
+
+        <!-- Intern Dashboard -->
+        <activity
+            android:name=".InternActivity"
+            android:exported="false" />
+
+        <!-- Progress Screen -->
+        <activity
+            android:name=".ProgressActivity"
+            android:exported="false" />
+
+        <!-- Review Task Screen -->
+        <activity
+            android:name=".ReviewTaskActivity"
+            android:exported="false" />
+
+        <!-- Supervisor Tasks -->
+        <activity
+            android:name=".SupervisorTasksActivity"
+            android:exported="false" />
+
+        <!-- Add Task -->
+        <activity
+            android:name=".AddTaskActivity"
+            android:exported="false" />
+
+        <!-- Supervisor Dashboard -->
+        <activity
+            android:name=".SupervisorActivity"
+            android:exported="false" />
+
+        <!-- Login Screen -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Create Account Screen -->
+        <activity
+            android:name=".CreateAccountActivity"
+            android:exported="false" />
+
+        <!-- Welcome Screen -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>
